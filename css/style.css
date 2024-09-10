@@ -1,185 +1,82 @@
-.navi {
-  position: relative;
+/* 헤더(링크)영역 */
+.header{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 50px;
-  background-color: #002a6a;
-}
-.navi li {
-  text-decoration: none;
-}
-
-.navi li a {
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-  color: white;
-}
-/* 상단메뉴 끝 */
-/* 첫페이지 시작 */
-.home-wrap {
-  position: absolute;
-  width: 100%;
-  height: 1000px;
-  background-color: #002a6a;
-  color: white;
-}
-.home-wrap h1 {
-  margin-top: 20%;
-  margin-left: 5%;
-  font-size: 64px;
-}
-.home-wrap h2 {
-  font-size: 40px;
-  margin-left: 5%;
-}
-/* 메인페이지 끝 */
-
-/* 2페이지 시작 */
-.bb-wrap {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background-color: white;
-}
-.title {
-  position: relative;
-  width: 100%;
-  height: 340px;
-  margin-top: 0;
-  top: 0;
-  background-color: antiquewhite;
-}
-.title h1 {
-  font-size: 300px;
-  color: #d0e3ff;
-}
-.title p {
-  position: absolute;
-  top: 100%;
-  left: 5%;
-  font-size: 20px;
-}
-.profile {
-  position: relative;
-  left: 20%;
-  width: 100%;
-  height: 730px;
-}
-.profile h1 {
-  font-size: 300px;
-  color: #d0e3ff;
-}
-.profile p {
-}
-.profile img {
-  width: 363px;
-  height: 512px;
-}
-.tools {
-}
-.tools p {
-}
-.tools img {
-}
-/* 2페이지 끝 */
-
-/* 3페이지 시작 */
-
-.Contents-wrap {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  background-color: aquamarine;
-}
-.Contents-title {
-  position: relative;
-  top: 0%;
-  width: 100%;
-  height: 500px;
-  background-color: #002a6a;
-  color: white;
-  text-align: center;
-}
-.Contents-title h1 {
-  position: absolute;
-  display: flex;
-  left: 820px;
-  font-size: 64px;
-  color: white;
-}
-.Contents-title p {
-  position: absolute;
-  display: flex;
-  margin-top: 15%;
-  margin-left: 25%;
-  text-align: center;
-  line-height: 50px;
-  font-size: 24px;
-  color: white;
-}
-/* 카드 복사  */
-
-/* 3페이지 끝 */
-
-/* 최하단 영역 시작 */
-
-.contact-wrap {
-  position: absolute;
-  width: 100%;
-  height: 500px;
-  background-color: #3787ff;
-}
-
-.contact-title {
-  position: relative;
-  box-sizing: border-box;
-  top: 3%;
-  left: 7%;
-}
-
-.contact-title h1 {
-  position: relative;
-  font-size: 40px;
-  width: 500px;
   left: 0;
-  color: white;
-}
-.contact-title p {
-  position: relative;
-  font-size: 20px;
-  top: 130px;
-  left: 5px;
-  color: white;
+  width: 100%;
+  height: 100px;
+  background-color: #002A6A;
 }
 
-.contact-link {
-  position: relative;
-  font-weight: bold;
-  top: 25%;
+.header .navi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 150px;
+  width: 80%; /* ul 요소의 너비 제한 */
 }
-.contact-link a {
+
+.header .navi li {
+  margin: 0 133px; /* li 요소 간 간격 조절 */
+}
+
+.header .navi a {
+  font-size: 24px;
   text-decoration: none;
-  font-weight: middle;
-  font-size: 48px;
-  line-height: 80px;
   color: white;
 }
-.email {
+/* 헤더 (링크) 영역 끝 */
+
+
+/* 첫번째(메인)페이지 시작 */
+.home-wrap{
   position: relative;
-  top: 1500px;
-  left: 1010px;
+  height: 100vh;
+  background-color: #002A6A;
 }
-.email p {
-  font-weight: bold;
-  font-size: 32px;
-  color: white;
+.home-wrap h1{
+  position: relative;
+  top: 35%;
+  left: 5%;
+  font-size: 64px;
+  color:  white;
 }
-.email a {
-  text-decoration: none;
-  font-weight: lighter;
-  font-size: 32px;
-  color: white;
+.home-wrap h2{
+  position: relative;
+  top: 40%;
+  left: 5%;
+  font-size: 40px;
+}
+/* 첫번째(메인)페이지 끝 */
+
+/* 두번째(프로필)페이지 시작 */
+.bb-wrap{
+  position: relative;
+  top: 0;
+}
+.whybb {
+  position: absolute;
+  width: 1340px;
+}
+.whybb li {
+  position: relative;
+  font-size: 300px;
+  font-weight: bolder;
+  color: #D0E3FF;
+}
+.whybb p{
+  font-size: 24px;
+}
+
+.profile{
+  position: absolute;
+  top: 50%;
+}
+.profile li{
+  font-size: 300px;
+  font-weight: bolder;
+  color: #D0E3FF;
+
+}
+.profile p{
+  line-height: 40px;
 }
