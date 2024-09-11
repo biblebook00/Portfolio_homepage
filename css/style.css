@@ -12,11 +12,12 @@
 .navi {
   display: flex;
   align-items: center;
-  margin: 0 150px;
-  width: 80%;
+  margin: 0 500px;
+  width: 100%;
 }
 .navi li {
-  margin: 0 130px;
+  margin: 0 135px;
+  font-weight: bold;
 }
 .navi a {
   font-size: 24px;
@@ -33,7 +34,7 @@
 }
 .home-wrap h1 {
   position: relative;
-  width: 100vw;
+  width: 1000px;
   top: 35%;
   left: 5%;
   font-size: 64px;
@@ -41,7 +42,7 @@
 }
 .home-wrap h2 {
   position: relative;
-  width: 100vw;
+  width: 500px;
   top: 40%;
   left: 5%;
   font-size: 40px;
@@ -57,7 +58,8 @@
 }
 .whybb {
   position: relative;
-  width: 1300px;
+  /* width: 1300px; */
+  width: 100vw;
 }
 .whybb li {
   position: relative;
@@ -68,6 +70,7 @@
 }
 .whybb p {
   position: relative;
+  width: 1000px;
   left: 5%;
   font-size: 20px;
 }
@@ -75,7 +78,6 @@
 .profile {
   position: relative;
   width: 100vw;
-  top: 1%;
 }
 .profile li {
   position: relative;
@@ -83,15 +85,15 @@
   font-size: 250px;
   font-weight: bolder;
   text-align: right;
-
+  left: 55%;
   color: #d0e3ff;
 }
 .profile p {
   position: relative;
   width: 980px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
-  /* left: 60%; */
+  left: 50%;
 }
 .profile img {
   position: absolute;
@@ -206,7 +208,7 @@
 .mail {
   position: absolute;
   top: 80%;
-  left: 55%;
+  left: 53%;
 }
 .mail li {
   font-size: 32px;
